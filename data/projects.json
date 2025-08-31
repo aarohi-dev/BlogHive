@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Building an MVP in 5 Days",
+    "desc": "A step-by-step guide on how to ship your first product quickly.",
+    "slug": "mvp-in-5-days",
+    "image": "https://picsum.photos/seed/mvp/400/250",
+    "content": "In this article, we walk through how to build a minimal viable product (MVP) in under a week, focusing on speed and validation rather than perfection."
+  },
+  {
+    "id": 2,
+    "title": "Why Tailwind CSS Speeds Up Development",
+    "desc": "Exploring how Tailwind can help developers style faster with utility classes.",
+    "slug": "tailwind-benefits",
+    "image": "https://picsum.photos/seed/tailwind/400/250",
+    "content": "Tailwind CSS provides a set of utility-first classes that allow developers to build modern UIs without writing custom CSS. This post discusses why it’s efficient for small teams."
+  },
+  {
+    "id": 3,
+    "title": "React vs. Next.js: Which Should You Choose?",
+    "desc": "Comparing React and Next.js for building modern web apps.",
+    "slug": "react-vs-nextjs",
+    "image": "https://picsum.photos/seed/reactnext/400/250",
+    "content": "React is a library for building UIs, while Next.js is a framework built on top of React. We explore the differences and when to choose one over the other."
+  },
+  {
+    "id": 4,
+    "title": "The Importance of User Feedback in MVPs",
+    "desc": "How collecting early feedback can make or break your startup.",
+    "slug": "user-feedback-mvps",
+    "image": "https://picsum.photos/seed/feedback/400/250",
+    "content": "Early-stage products benefit the most from real user input. Learn practical strategies to gather and act on feedback quickly."
+  },
+  {
+    "id": 5,
+    "title": "Using PostgreSQL for Modern Web Apps",
+    "desc": "Why PostgreSQL is a solid choice for startups and production apps.",
+    "slug": "postgresql-for-webapps",
+    "image": "https://picsum.photos/seed/postgres/400/250",
+    "content": "PostgreSQL is reliable, scalable, and has a strong ecosystem of tools. We explore why it’s favored by developers building data-heavy applications."
+  },
+  {
+    "id": 6,
+    "title": "How to Deploy Next.js on Vercel",
+    "desc": "A beginner-friendly guide to deploying your Next.js app live.",
+    "slug": "deploy-nextjs-vercel",
+    "image": "https://picsum.photos/seed/vercel/400/250",
+    "content": "Vercel is the easiest way to deploy Next.js applications. In this guide, we walk you through deployment in under 10 minutes."
+  },
+  {
+    "id": 7,
+    "title": "Best Free APIs for Hackathon Projects",
+    "desc": "A curated list of APIs that can supercharge your hackathon projects.",
+    "slug": "free-apis-hackathon",
+    "image": "https://picsum.photos/seed/apis/400/250",
+    "content": "Hackathons require speed and creativity. This list covers APIs that are free to use and integrate quickly, from maps to AI services."
+  },
+  {
+    "id": 8,
+    "title": "Designing with Accessibility in Mind",
+    "desc": "Why accessibility should be a priority, not an afterthought.",
+    "slug": "accessibility-design",
+    "image": "https://picsum.photos/seed/a11y/400/250",
+    "content": "Accessible design benefits everyone. We cover key principles and simple techniques for making your web apps inclusive."
+  },
+  {
+    "id": 9,
+    "title": "Integrating Maps with Leaflet.js",
+    "desc": "A hands-on guide to adding interactive maps to your projects.",
+    "slug": "leafletjs-maps",
+    "image": "https://picsum.photos/seed/maps/400/250",
+    "content": "Leaflet.js makes it simple to add maps to any project. We demonstrate how to integrate it into a Next.js application."
+  },
+  {
+    "id": 10,
+    "title": "Managing State in React Apps",
+    "desc": "Different approaches to handle state in modern React applications.",
+    "slug": "state-management-react",
+    "image": "https://picsum.photos/seed/state/400/250",
+    "content": "From useState to Redux, there are multiple ways to manage state in React. This post compares options and when to use them."
+  }
+]
