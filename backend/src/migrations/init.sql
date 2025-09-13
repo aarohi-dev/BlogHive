@@ -1,0 +1,40 @@
+DROP TABLE IF EXISTS likes CASCADE;
+DROP TABLE IF EXISTS comments CASCADE;
+DROP TABLE IF EXISTS posts CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+
+-- Users Table
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  google_id TEXT UNIQUE NOT NULL,
+  name TEXT NOT NULL,
+  email TEXT UNIQUE NOT NULL,
+  avatar TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Posts Table
+
+CREATE TABLE posts (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL,
+  author_id INT REFERENCES users(id) ON DELETE CASCADE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Likes Table
+
+CREATE TABLE likes (
+  post_id INT REFERENCES posts(id) ON DELETE CASCADE,
+  user_id INT REFERENCES users(id) ON DELETE CASCADE,
+  PRIMARY KEY (post_id, user_id)
+);
+
+-- Comments Table
+CREATE TABLE comments (
+  id SERIAL PRIMARY KEY,
+  post_id INT REFERENCES posts(id) ON DELETE CASCADE,
+  user_id INT REFERENCES users(id) ON DELETE CASCADE_
