@@ -3,16 +3,16 @@ import querystring from "querystring";
 import fetch from "node-fetch";
 import { OAuth2Client } from "google-auth-library";
 
-dotenv.config();
+dotenv.config();                        //loading key value pairs from .env file and making these available as proprties in this file.
 
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 const GOOGLE_REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI;
 
-// Create reusable OAuth client
+//creating reusable OAuth client
 const oauthClient = new OAuth2Client(GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URI);
 
-//Build Google Auth URL
+//building Google Auth URL
 export function getGoogleAuthURL() {
   const rootUrl = "https://accounts.google.com/o/oauth2/v2/auth";
 

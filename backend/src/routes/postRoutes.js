@@ -1,6 +1,6 @@
 import express from "express";
 import { ensureAuthenticated } from "../middleware/authMiddleware.js";
-import { validatePost, handleValidationResult } from "../middleware/validationMiddleware.js";
+import { validatePost, handleValidationResult } from "../middleware/validators.js";
 import * as Post from "../models/Post.js";
 
 const router = express.Router();

@@ -4,7 +4,7 @@ import {
   ensureAuthenticated,
   ensureCommentAuthor,
 } from "../middleware/authMiddleware.js";
-import { validateComment, handleValidationResult } from "../middleware/validationMiddleware.js";
+import { validateComment, handleValidationResult } from "../middleware/validators.js";
 
 const router = express.Router();
 

@@ -1,5 +1,6 @@
 import * as Post from "../models/Post.js";
-import pool from "../db.js";
+import pool from "../config/db.js"; 
+
 
 //Ensure user is logged in
 export function ensureAuthenticated(req, res, next) {

@@ -1,4 +1,4 @@
-import pool from "../db.js";
+import pool from "../config/db.js"; 
 
 //List all comments for a post
 export async function listForPost(post_id) {

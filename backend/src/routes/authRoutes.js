@@ -3,7 +3,7 @@ import {
   getGoogleAuthURL,
   exchangeCodeForTokens,
   verifyIdToken,
-} from "../utils/googleAuth.js";
+} from "../utils/googleauth.js";
 import * as User from "../models/User.js";
 
 const router = express.Router();

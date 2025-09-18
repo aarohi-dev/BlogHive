@@ -1,4 +1,4 @@
-import pool from "../db.js";
+import pool from "../config/db.js"; 
 
 //list posts with author info + like/comment counts
 export async function listPosts({ limit = 10, offset = 0 }) {

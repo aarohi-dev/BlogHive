@@ -1,4 +1,4 @@
-import pool from "../db.js";
+import pool from "../config/db.js"; 
 
 //Find user by Google ID
 export async function findByGoogleId(google_id) {
@@ -17,3 +17,11 @@ export async function findById(id) {
   );
   return user;
 }
+
+export default {
+  findByGoogleId,
+  findById,
+  findByEmail,
+  createUser,
+  findOrCreate,
+};
